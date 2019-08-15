@@ -3,23 +3,27 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+
+
   return (
     <div className="App">
-      <header className="App-header">
+      <header className="App-header" id="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+         MultiMeter Bluetooth App
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+
+
+
+
+      <footer className="App-footer" id="App-footer">Icons made by 
+        <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons" target="_blank" rel="noopener noreferrer">Smashicons</a> from 
+        <a href="https://www.flaticon.com/" title="Flaticon" target="_blank" rel="noopener noreferrer">www.flaticon.com</a> is licensed by 
+        <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank" rel="noopener noreferrer">CC 3.0 BY</a>
+      </footer>
     </div>
+    
   );
 }
 
