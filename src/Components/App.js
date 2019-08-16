@@ -1,7 +1,7 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from '../../src/logo.svg';
 import './App.css';
-import Meter from '../src/Components/meter.js'
+import Meter from '../Components/meter/meter.js'
 
 function App() {
 
