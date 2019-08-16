@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Meter from '../src/Components/meter.js'
 
 function App() {
 
@@ -14,7 +15,7 @@ function App() {
         </p>
       </header>
 
-
+    <Meter />
 
 
       <footer className="App-footer" id="App-footer">Icons made by 
